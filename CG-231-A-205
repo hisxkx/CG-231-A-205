@@ -1,0 +1,32 @@
+function comprobacion (a){
+    geon= new THREE.Geometry();
+    for (let i = 0; i < a.length; ++i) {
+        x = a[i][0];
+        y = a[i][1];
+        z = a[i][2];
+        vector = new THREE.Vector3(x, y, z);    
+        var vec = [0][0];
+        if (vec = x) {
+        return "es paralelo en x"; }
+           else if (vec = y) {
+            return "es paralelo en y"; }
+                else if (vec = z ){
+                return "es paralelo en z"; }    
+    }
+}  
+
+comprobacion(1);
+
+function esMenor () {
+    lista [5,9,1,51,5,5,54,1,2,8,5];
+    men [0]
+    for (let i = 0; i < lista.length; ++i) {
+    if (lista {i} > men []) {
+        men[i++]
+    }
+        else if
+        return men[i];
+
+    }
+}
+esMenor();
